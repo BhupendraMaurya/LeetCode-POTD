@@ -1,5 +1,5 @@
 class SortColors {
-    //❌ Solved this problem without taking extra space. as this problem can also be solved using sorting.❌
+    //❌ Solved this problem without any taking extra space. This problem can also be solved using sorting.❌
     public void sortColors(int[] nums) {
         
         int c0=0;
