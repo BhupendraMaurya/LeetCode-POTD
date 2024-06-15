@@ -7,6 +7,7 @@ import java.util.Arrays;
 // https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/?envType=daily-question&envId=2024-06-13
 public class MinovesToSeat {
     public int minMovesToSeat(int[] seats, int[] students) {
+        // Corresponding Students and seats jitne pass honge, difference utna hi km hoga, that's why, dono array ko sort krke unka absolute difference nikal rha
         Arrays.sort(seats);
         Arrays.sort(students);
 
