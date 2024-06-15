@@ -35,6 +35,7 @@ public class MakeArrayUnique {
 
         return cnt;
     }
+    // Optimized Approach 
     public int minIncrementForUnique(int[] nums) {
         //Sorting so that all the same elements come adjacent to each other and it would be easier to manage the elements.
         Arrays.sort(nums);
